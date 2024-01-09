@@ -1,0 +1,26 @@
+1.
+- Ko tính hoán vị trùng nhau (123 = 132)
+- được phép dùng a[i] nhiều lần
+for (int i = 1; i <= n; i++) {
+	for (int j = 1; j <= s; j++) {
+		//code	
+	}
+}
+
+2.
+- Ko tính hoán vị trùng nhau (123 = 132)
+- Ko đc phép dùng a[i] nhiều lần
+for (int i = 1; i <= n; i++) {
+	for (int j = s; j >= 1; j--) {
+		//code	
+	}
+}
+
+3.
+- Có tính hoán vị trùng nhau (123 = 132)
+- được phép dùng a[i] nhiều lần
+for (int i = 1; i <= s; i++) {
+	for (int j = 1; j <= n; j++) {
+		//code	
+	}
+}
